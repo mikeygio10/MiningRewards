@@ -113,7 +113,7 @@ class Loader extends PluginBase {
         }
         $this->rewards = $rewards;
         $this->countMin = (int)$elements["reward-count-min"] > 0 ? (int)$elements["reward-count-min"] : 1;
-        $this->countMax = (int)$elements["reward-count-max"] > $this->countMin ? (int)$elements["reward-count-max"] : 5;
+        $this->countMax = (int)$elements["reward-count-max"] > $this->countMin ? (int)$elements["reward-count-max"] : 1;
         $this->chance = (int)$elements["chance"] > 0 ? (int)$elements["chance"] : 100;
         $this->animationTickRate = (int)$elements["lengthOfAnimation"] > 0 ? (int)$elements["lengthOfAnimation"] : 20;
         self::$prefix = str_replace("&", TextFormat::ESCAPE, (string)$elements["prefix"]);
