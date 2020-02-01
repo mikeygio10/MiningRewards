@@ -1,10 +1,10 @@
 ---
 # Item ID of the reward
 # This will permanently override the item
-mining-reward-id: 381 # Ender Eye
+mining-reward-id: 409 # Ender Eye
 
 # Use & for color
-prefix: "&8[&a&lMR&r&8] "
+prefix: "&8[&a&lReward&r&8] "
 
 # Titles that will be randomized
 titles:
@@ -33,7 +33,7 @@ rewards:
     message: "&aYou've received a reward" # & for color
 
 reward-count-min: 1 # The min amount of rewards a player can get.
-reward-count-max: 5 # The max amount of rewards a player can get.
+reward-count-max: 1 # The max amount of rewards a player can get.
 
 chance: 100 # Chance of getting crate for rewards
 
